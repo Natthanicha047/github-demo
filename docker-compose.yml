@@ -2,7 +2,7 @@ version: '3'
 services:
   web:
     ports:
-     - "3000:3000"
+     - "80:80"
     image: "natthanicha047/node-vote-app"
   redis:
     image: "redis:3.0"
